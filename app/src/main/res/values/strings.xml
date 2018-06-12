@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">BattleShip</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_single_player">SinglePlayer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_multi_player">MultiPlayer</string>
+    <string name="title_activity_friends_list">FriendsList</string>
+    <string name="title_activity_settings">Settings</string>
 </resources>
