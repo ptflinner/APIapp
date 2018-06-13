@@ -1,4 +1,4 @@
-package com.example.powermad3.battleship.fragments.friends_list;
+package com.example.powermad3.battleship.fragments.multiplayer;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,12 +13,12 @@ import com.example.powermad3.battleship.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link AddFriend.OnFragmentInteractionListener} interface
+ * {@link CurrentGamesFrag.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link AddFriend#newInstance} factory method to
+ * Use the {@link CurrentGamesFrag#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class AddFriend extends Fragment {
+public class CurrentGamesFrag extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class AddFriend extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public AddFriend() {
+    public CurrentGamesFrag() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class AddFriend extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment AddFriend.
+     * @return A new instance of fragment CurrentGamesFrag.
      */
     // TODO: Rename and change types and number of parameters
-    public static AddFriend newInstance(String param1, String param2) {
-        AddFriend fragment = new AddFriend();
+    public static CurrentGamesFrag newInstance(String param1, String param2) {
+        CurrentGamesFrag fragment = new CurrentGamesFrag();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,7 +65,7 @@ public class AddFriend extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_friend, container, false);
+        return inflater.inflate(R.layout.fragment_in_progress, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

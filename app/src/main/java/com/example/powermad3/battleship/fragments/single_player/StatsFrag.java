@@ -13,12 +13,12 @@ import com.example.powermad3.battleship.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link singleMain.OnFragmentInteractionListener} interface
+ * {@link StatsFrag.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link singleMain#newInstance} factory method to
+ * Use the {@link StatsFrag#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class singleMain extends Fragment {
+public class StatsFrag extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class singleMain extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public singleMain() {
+    public StatsFrag() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class singleMain extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment singleMain.
+     * @return A new instance of fragment StatsFrag.
      */
     // TODO: Rename and change types and number of parameters
-    public static singleMain newInstance(String param1, String param2) {
-        singleMain fragment = new singleMain();
+    public static StatsFrag newInstance(String param1, String param2) {
+        StatsFrag fragment = new StatsFrag();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,7 +65,7 @@ public class singleMain extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_single_main, container, false);
+        return inflater.inflate(R.layout.fragment_stats, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
