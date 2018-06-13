@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BattleShip</string>
+    <string name="app_name">Battleship</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_single_player">SinglePlayer</string>
     <string name="title_home">Home</string>
