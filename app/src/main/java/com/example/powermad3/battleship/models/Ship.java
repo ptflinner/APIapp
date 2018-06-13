@@ -23,7 +23,7 @@ public class Ship {
     }
 
     private ArrayList<Point> buildPointList(char[][] board){
-        ArrayList<Point> list= new ArrayList();
+        ArrayList<Point> list= new ArrayList<>();
 
         return list;
     }
