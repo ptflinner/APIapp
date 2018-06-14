@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
     tools:context=".fragments.single_player.SingleFragmentMain">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/single_main_text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/single_main" />
+    <!-- TODO: Update UI to be good -->
 
-</FrameLayout>
+    <LinearLayout
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/single_play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:textSize="14sp"
+            android:padding="14dp"/>
+        <Button
+            android:id="@+id/single_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cont"
+            android:textSize="14sp"
+            android:padding="14dp"/>
+        <Button
+            android:id="@+id/single_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stats"
+            android:textSize="14sp"
+            android:padding="14dp"/>
+    </LinearLayout>
+
+</LinearLayout>
