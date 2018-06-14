@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.friends_list.FriendFragmentMain">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/friend_main_text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/friend_main" />
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/friends_list_recycler"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#FFF" />-->
 
-</FrameLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_group_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        />
+</RelativeLayout>
