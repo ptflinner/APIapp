@@ -3,9 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
     tools:context=".fragments.multiplayer.MultiFragmentMain">
 
     <!-- TODO: Make UI Good-->
-    
+    <LinearLayout
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/multi_match_making"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi_match"
+            android:textSize="16sp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/multi_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cont"
+            android:textSize="16sp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/multi_challenge_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi_friends"
+            android:textSize="16sp"
+            android:padding="14dp"/>
+    </LinearLayout>
+
 
 </LinearLayout>
